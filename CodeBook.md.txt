@@ -13,7 +13,7 @@ The R file run_analysis follows the five steps required by the project instructi
 4. Import the activity_labels.txt file and store the data in dataset activity.  
 5. Replace values of the only column in the "Labelmerge" dataset with acitivity names from dataset "activity".
 6. Merge the "Subjectmerge","Labelmerge" and "Datamerge2" by column and we will get a clean 10299x68 dataset "tidydata1". Name the first two columns as "subject" and "activity".
-7. Install package "plyr" of R and us ddply() to get the tidy dataset "tidydata2" with the average of each variable for each activity(6) and each subject(30) with dimension (60x3)180x68.
+7. Install package "plyr" of R and use ddply() to get the tidy dataset "tidydata2" with the average of each variable for each activity(6) and each subject(30) with dimension (60x3)180x68.
 8. Write the tidy dataset to directory and name as "averagedataset"
 
 
