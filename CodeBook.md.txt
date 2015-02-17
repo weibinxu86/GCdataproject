@@ -9,7 +9,7 @@ II.Analysis and Variables
 The R file run_analysis follows the five steps required by the project instructions and writes out the final tidy dataset.
 1. Download X_train.txt, y_train.txt and subject_train.txt from the project websit and store them in datasets "Datatrain", "Labeltrain" and "Subjecttrain" respectively. Also download X_test.txt, y_test.txt and subject_test.txt and store them in "Datatest", "Labeltest" and "Subjecttest" respectively. 
 2 Concatenate the test datasets and train datasets and get three datasets "Datamerge"(10299x561),"Labelmerge"(10299x1) and "Sujectmerge"(10299x1).
-3. Import features.txt, store it in dataset "features" (561x2) and find the "mean" and "std" variables in it and create an index. Use this index to extract only mean std measurements in the "Datamerge" dataset and store the new dataset in "Datamerge2"(10299x66).
+3. Import features.txt, store it in dataset "features" (561x2) and find the "mean" and "std" variables in it and create an index. Use this index to extract only mean and std measurements in the "Datamerge" dataset and store the new dataset in "Datamerge2"(10299x66).
 4. Import the activity_labels.txt file and store the data in dataset activity.  
 5. Replace values of the only column in the "Labelmerge" dataset with acitivity names from dataset "activity".
 6. Merge the "Subjectmerge","Labelmerge" and "Datamerge2" by column and we will get a clean 10299x68 dataset "tidydata1". Name the first two columns as "subject" and "activity".
